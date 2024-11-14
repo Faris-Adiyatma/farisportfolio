@@ -17,7 +17,10 @@ import {SiTailwindcss, SiNextdotjs, SiMysql, SiSpringboot, SiTableau, SiPowerbi}
 
 const about = {
     title: 'About me',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vero possimus consequatur tenetur',
+    description: `Hello! I’m Faris Adiyatma, a Full-Stack Developer with a unique background in accounting and finance. I've pivoted into tech, specializing in front-end 
+    and back-end development. I’ve completed certifications in Front-End Development through IDCAMP x Dicoding (HTML, CSS, JavaScript) and Back-End Development at Enigmacamp 
+    (Java, Spring Boot, SQL). Additionally, my Data Analytics certification from Google sharpened my skills in data interpretation. I’m passionate about creating intuitive, 
+    user-focused applications. Let’s collaborate to turn ideas into impactful digital solutions!`,
     info: [
         {
             fieldName: 'Name',
@@ -53,7 +56,8 @@ const about = {
 const experience = {
     icon: "/assets/resume/badge.svg",
     title: "My experience",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vero possimus consequatur tenetur.",
+    description: `Faris Adiyatma is a Full-Stack Developer with a background in accounting and finance. Skilled in Java, Python, JavaScript, React, Node.js, 
+    and data analytics, he blends technical expertise and analytical insight to build efficient, user-driven applications and drive data-informed decisions.`,
     items: [
         {
             company: "CSUL Finance",
@@ -81,7 +85,8 @@ const experience = {
 const education = {
     icon: "/assets/resume/cap.svg",
     title: "My education",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vero possimus consequatur tenetur.",
+    description: `Bachelor's in Accounting from Binus University, certified in Front-End (IDcamp x Dicoding), Back-End (Enigmacamp), Data Analytics (Google), 
+    Data Science (DQLab Academy) and Digital Skills (Green Digital, Inco Academy).`,
     items: [
         {
             institution: "Inco Academy",
@@ -118,7 +123,8 @@ const education = {
 
 const skills = {
     title: "My skills",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vero possimus consequatur tenetur.",
+    description: `I specialize in web development technologies like HTML, CSS, and Tailwind for creating responsive designs. Skilled in JavaScript for dynamic 
+    interfaces, I use Node.js for backend logic and React and Next.js for fast, SEO-friendly front ends. My Java knowledge supports enterprise-level development`,
     skillList: [
         {
             icon: <FaHtml5 />,
@@ -209,7 +215,7 @@ const Resume = () => {
                 <TabsContent value="experience" className="w-full">
                     <div className="flex flex-col gap-[30px] text-center xl:text-left">
                         <h3 className="text-4xl font-bold">{experience.title}</h3>
-                        <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                        <p className="max-w-[750px] text-white/60 mx-auto xl:mx-0">
                             {experience.description}
                         </p>
                         <ScrollArea className="h-[400px]">
@@ -234,7 +240,7 @@ const Resume = () => {
                 <TabsContent value="education" className="w-full">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                         <h3 className="text-4xl font-bold">{education.title}</h3>
-                        <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                        <p className="max-w-[750px] text-white/60 mx-auto xl:mx-0">
                             {education.description}
                         </p>
                         <ScrollArea className="h-[400px]">
@@ -260,7 +266,7 @@ const Resume = () => {
                     <div className="flex flex-col gap-[30px]">
                         <div className="flex flex-col gap-[30px] text-center xl:text-left">
                             <h3 className="text-4xl font-bold">{skills.title}</h3>
-                            <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
+                            <p className="max-w-[750px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
                         </div>
                         <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                             {skills.skillList.map((skill, index)=> {
@@ -287,7 +293,7 @@ const Resume = () => {
                 <TabsContent value="about" className="w-full text-center xl:text-left">
                     <div className="flex flex-col gap-[30px]">
                         <h3 className="text-4xl font-bold">{about.title}</h3>
-                        <p className="max-w-[650px] text-white/60 mx-auto xl:mx-0">
+                        <p className="max-w-[750px] text-white/60 mx-auto xl:mx-0">
                         {about.description}
                         </p>
                         <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[950px] mx-auto xl:mx-0">
