@@ -247,7 +247,7 @@ const Resume = () => {
                             <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                                 {education.items.map((item, index)=> {
                                     return (
-                                        <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex
+                                        <li key={index} className="bg-[#232329] h-[184px] py-10 px-10 rounded-xl flex
                                         flex-col justify-center items-center lg:items-start gap-1">
                                             <span className="text-accent">{item.duration}</span>
                                             <h3 className="text-xl max-w-[280px] min-h-[55px] text-center lg:text-left">{item.degree}</h3>
