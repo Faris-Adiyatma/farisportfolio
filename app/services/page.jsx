@@ -7,28 +7,28 @@ import Link from "next/link";
 
 const services = [
     {
-        num: '01',
-        title: 'Web Development',
+        num: "01",
+        title: "Web Development",
         description:`Build responsive, user-centric websites that make an impact. With expertise in HTML, CSS, JavaScript, React, and Tailwind CSS, I create seamless, intuitive front-end designs that are optimized for performance and user experience.`,
-        href: ''
+        href: ""
     },
     {
-        num: '02',
-        title: 'Back End Development Services',
+        num: "02",
+        title: "Back End Development Services",
         description:`Power your applications with robust and scalable back-end solutions. Specializing in Java, Spring Boot, SQL, and RESTful APIs, I ensure that your app’s architecture is secure, efficient, and ready to grow with your business.`,
-        href: ''
+        href: ""
     },
     {
-        num: '03',
-        title: 'Data Analyst',
+        num: "03",
+        title: "Data Analyst",
         description:`Transform data into actionable insights. With a Google Data Analytics certification and a strong background in finance, I leverage data to drive smarter decisions and optimize processes for your business.`,
-        href: ''
+        href: ""
     },
     {
-        num: '04',
-        title: 'Virtual Assisstant',
+        num: "04",
+        title: "Virtual Assisstant",
         description:`Stay organized and productive with reliable virtual assistance. From scheduling and research to data management, I offer personalized support to help streamline your operations.`,
-        href: ''
+        href: ""
     },
 ];
 
